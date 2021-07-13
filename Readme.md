@@ -1,4 +1,4 @@
-This is a portable linear algebra library defined in the modi-rahil.h file. Which takes matrices as input and
+This is a portable linear algebra library defined in the matrix.h file. Which takes matrices as input and
 based on the function selected it can perform transpose or multiplication of matrices.
 
 # Environment
