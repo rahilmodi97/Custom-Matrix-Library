@@ -67,10 +67,10 @@ or
 ./matmul test false
 ```
 # Files
-## modi-rahil.cpp
+## main.cpp
 It is the main file which when you run you get the option to choose manual or test mode. Choose which function to run in
 manual mode. Either to use multithreading or single threaded operation. This file also has the test cases defined.
-## modi-rahil.h
+## matrix.h
 It is the header file which has the entire library defined. This file can be used independently if required as a normal
 library and with any other file and you can call the functions to perform transpose and multiplication functions.
 
@@ -78,7 +78,7 @@ library and with any other file and you can call the functions to perform transp
 I have written the code in the best modular way possible so that it is required to be compiled just once and you can
 choose from various arguments.
 
-To run custom test cases it will require the modi-rahil.cpp to be modified.
+To run custom test cases it will require the main.cpp to be modified.
 
 The multithreaded option is only useful when the matrix size is very large, for small matrices it is not useful as there
 is large overhead which makes using single threaded a better choice.
